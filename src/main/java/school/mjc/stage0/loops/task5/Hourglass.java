@@ -26,7 +26,7 @@ public class Hourglass {
                         System.out.print("8");
                         continue;
                     }
-                    if(j>=i-(height/2)&&j<=height-i){
+                    if(j>=i-(height/2)&&j<=height-i+(height/2)+1){
                         System.out.print("8");
                     }
                     else{
